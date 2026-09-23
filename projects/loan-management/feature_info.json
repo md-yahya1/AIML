@@ -1,0 +1,96 @@
+{
+  "columns": [
+    "Applicant_Income",
+    "Coapplicant_Income",
+    "Employment_Status",
+    "Age",
+    "Marital_Status",
+    "Dependents",
+    "Credit_Score",
+    "Existing_Loans",
+    "DTI_Ratio",
+    "Savings",
+    "Collateral_Value",
+    "Loan_Amount",
+    "Loan_Term",
+    "Loan_Purpose",
+    "Property_Area",
+    "Education_Level",
+    "Gender",
+    "Employer_Category"
+  ],
+  "numeric_cols": [
+    "Applicant_Income",
+    "Coapplicant_Income",
+    "Age",
+    "Dependents",
+    "Credit_Score",
+    "Existing_Loans",
+    "DTI_Ratio",
+    "Savings",
+    "Collateral_Value",
+    "Loan_Amount",
+    "Loan_Term"
+  ],
+  "categorical_cols": [
+    "Employment_Status",
+    "Marital_Status",
+    "Loan_Purpose",
+    "Property_Area",
+    "Education_Level",
+    "Gender",
+    "Employer_Category"
+  ],
+  "categorical_values": {
+    "Employment_Status": [
+      "Salaried",
+      "Self-employed",
+      "Contract",
+      "Unemployed"
+    ],
+    "Marital_Status": [
+      "Married",
+      "Single"
+    ],
+    "Loan_Purpose": [
+      "Personal",
+      "Car",
+      "Business",
+      "Home",
+      "Education"
+    ],
+    "Property_Area": [
+      "Urban",
+      "Semiurban",
+      "Rural"
+    ],
+    "Education_Level": [
+      "Not Graduate",
+      "Graduate"
+    ],
+    "Gender": [
+      "Female",
+      "Male"
+    ],
+    "Employer_Category": [
+      "Private",
+      "Government",
+      "Unemployed",
+      "MNC",
+      "Business"
+    ]
+  },
+  "numeric_defaults": {
+    "Applicant_Income": 10452.5,
+    "Coapplicant_Income": 5143.0,
+    "Age": 40.0,
+    "Dependents": 1.0,
+    "Credit_Score": 677.0,
+    "Existing_Loans": 2.0,
+    "DTI_Ratio": 0.34,
+    "Savings": 9910.0,
+    "Collateral_Value": 24059.0,
+    "Loan_Amount": 21282.0,
+    "Loan_Term": 48.0
+  }
+}
